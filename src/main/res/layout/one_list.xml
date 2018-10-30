@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30px">
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/title"
+                android:text="title"
+                android:textColor="#ff0000"
+                android:textSize="100px" />
+
+
+            <TextView
+                android:id="@+id/time"
+                android:padding="20px"
+                android:text="time" />
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <TextView
+                android:text="Says:"
+                android:textSize="40px" />
+
+            <TextView
+                android:id="@+id/neirong"
+                android:padding="20px"
+                android:text="neirong"
+                android:textSize="50px" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

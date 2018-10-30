@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MYBQ</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_GET">便签</string>
+    <string name="title_ADD">添加</string>
+    <string name="title_OPTION">选项</string>
+</resources>

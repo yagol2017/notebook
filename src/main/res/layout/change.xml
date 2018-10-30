@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50px"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/show_id"
+                android:text="编号 ID："
+                android:textColor="#000000"
+                android:textSize="100px" />
+
+            <EditText
+                android:id="@+id/out_id"
+                android:editable="false" />
+        </TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="标题："
+                android:textColor="#000000"
+                android:textSize="100px" />
+        </TableRow>
+
+        <TableRow></TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/input_title"
+                android:singleLine="false" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:text="内容："
+                android:textColor="#000000"
+                android:textSize="100px" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/input_neirong"
+                android:layout_width="match_parent"
+                android:singleLine="false" />
+        </TableRow>
+        <RadioGroup
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/color_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="红" />
+
+            <RadioButton
+                android:id="@+id/color_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蓝" />
+
+            <RadioButton
+                android:id="@+id/color_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="绿" />
+
+        </RadioGroup>
+        <TableRow>
+
+            <Button
+                android:id="@+id/change"
+                android:text="修改便签" />
+
+            <Button
+                android:id="@+id/back"
+                android:text="返回" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
